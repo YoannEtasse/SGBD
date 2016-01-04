@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host     : 'sql.network',
-  user     : 'Paul',
-  password : 'test',
-  database : 'fnam_paul'
+  host     : '',
+  user     : '',
+  password : '',
+  database : ''
 });
 
 // obsolète pour une simple query
