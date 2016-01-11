@@ -1,0 +1,26 @@
+{
+  "name": "sgbd",
+  "version": "1.0.0",
+  "description": "sgbd, parsing, test module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoannEtasse/SGBD.git"
+  },
+  "author": "Etasse Yoann <yoann.etasse@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoannEtasse/SGBD/issues"
+  },
+  "homepage": "https://github.com/YoannEtasse/SGBD#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect": "^3.4.0",
+    "mysql": "^2.10.0",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  }
+}
