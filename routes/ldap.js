@@ -9,7 +9,7 @@ var setup = function (username, password){
 		});
 		
 		//bind se connecter au serveur ldap en tant que "IIS_APP","I4Got6tmPswd"
-		client.bind('IIS_APP', 'I4Got6tmPswd', function(err) {
+		client.bind('user', 'password', function(err) {
 			//assert.ifError(err);
 			if (err) {
 				console.log('bindERR : '+err);
