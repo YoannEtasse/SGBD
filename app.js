@@ -12,10 +12,11 @@ var mysql = require('./mysql');		//gère la connection mysql
 
 // Mes middlewares :
 var ldap = require('./routes/ldap');
+var ad = require('./routes/ad');
 var showURL = require('./routes/showURL');
 var showBody = require('./routes/showBody');
 var checkUser = require('./routes/checkUsers');
-var setHeads = require('./routes/setHeads')
+var setHeads = require('./routes/setHeads');
 
 function send404Response(response){
 	response.writeHead(404, {"Content-Types":"text/plain"});
@@ -51,8 +52,9 @@ app.use(bodyParser.json());
 // Mes middlewares :
 app.use(showURL(null));
 app.use(showBody(null));
-app.use(ldap('testArg1'));
+//app.use(ad('testldap','test'));
 app.use(setHeads(null));
+app.use(ldap('testldap','test'));
 
 app.use('/mysql', connectMysql);
 app.use('/', home);

@@ -1,0 +1,229 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'LDAP',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of Z:\share\nfo\appliNodeJS\sgbd\package.json
+5 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\activedirectory\package.json
+6 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\body-parser\package.json
+7 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\connect\package.json
+8 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\ldapjs\package.json
+9 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\mysql\package.json
+10 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\url\package.json
+11 verbose installManyTop reading scoped package data from Z:\share\nfo\appliNodeJS\sgbd\node_modules\util\package.json
+12 info package.json util@0.10.3 util is also the name of a node core module.
+13 info package.json url@0.11.0 url is also the name of a node core module.
+14 verbose readDependencies loading dependencies from Z:\share\nfo\appliNodeJS\sgbd\package.json
+15 silly cache add args [ 'LDAP', null ]
+16 verbose cache add spec LDAP
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'LDAP',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'LDAP',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: 'latest',
+17 silly cache add   type: 'tag' }
+18 silly addNamed LDAP@latest
+19 verbose addNamed "latest" is being treated as a dist-tag for LDAP
+20 info addNameTag [ 'LDAP', 'latest' ]
+21 silly mapToRegistry name LDAP
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/LDAP
+25 verbose addNameTag registry:https://registry.npmjs.org/LDAP not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/LDAP
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 4:05:36 PM
+29 verbose request id dfa7c7bdef2d7837
+30 http request GET https://registry.npmjs.org/LDAP
+31 http 200 https://registry.npmjs.org/LDAP
+32 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   etag: '"A0OIX4FQNH2YT1399R3RNP3B8"',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '22411',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Wed, 13 Jan 2016 15:05:36 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '0',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1452697536.114896,VS0,VE176',
+32 verbose headers   vary: 'Accept' }
+33 silly get cb [ 200,
+33 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly get     etag: '"A0OIX4FQNH2YT1399R3RNP3B8"',
+33 silly get     'content-type': 'application/json',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     'content-length': '22411',
+33 silly get     'accept-ranges': 'bytes',
+33 silly get     date: 'Wed, 13 Jan 2016 15:05:36 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     age: '0',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-lcy1132-LCY',
+33 silly get     'x-cache': 'MISS',
+33 silly get     'x-cache-hits': '0',
+33 silly get     'x-timer': 'S1452697536.114896,VS0,VE176',
+33 silly get     vary: 'Accept' } ]
+34 verbose get saving LDAP to C:\Documents and Settings\corporate.services\Application Data\npm-cache\registry.npmjs.org\LDAP\.cache.json
+35 silly addNameTag next cb for LDAP with tag latest
+36 silly addNamed LDAP@1.2.1
+37 verbose addNamed "1.2.1" is a plain semver version for LDAP
+38 silly mapToRegistry name LDAP
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/LDAP
+42 verbose addRemoteTarball https://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz not in flight; adding
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz',
+43 verbose addRemoteTarball   '2370dd8a52c3b046c925d17160c2ca07e896b2bd' ]
+44 info retry fetch attempt 1 at 4:05:36 PM
+45 info attempt registry request try #1 at 4:05:36 PM
+46 http fetch GET https://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz
+47 http fetch 200 https://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz
+48 silly fetchAndShaCheck shasum 2370dd8a52c3b046c925d17160c2ca07e896b2bd
+49 verbose addTmpTarball C:\DOCUME~1\CORPOR~1.SER\LOCALS~1\Temp\npm-3776-22adb347\registry.npmjs.org\LDAP\-\LDAP-1.2.1.tgz not in flight; adding
+50 verbose addTmpTarball already have metadata; skipping unpack for LDAP@1.2.1
+51 silly cache afterAdd LDAP@1.2.1
+52 verbose afterAdd C:\Documents and Settings\corporate.services\Application Data\npm-cache\LDAP\1.2.1\package\package.json not in flight; writing
+53 verbose afterAdd C:\Documents and Settings\corporate.services\Application Data\npm-cache\LDAP\1.2.1\package\package.json written
+54 silly install resolved [ { author: { name: 'Jeremy Childs', email: 'jeremyc@ssimicro.com' },
+54 silly install resolved     name: 'LDAP',
+54 silly install resolved     description: 'LDAP Binding for node.js',
+54 silly install resolved     version: '1.2.1',
+54 silly install resolved     homepage: 'https://github.com/jeremycx/node-LDAP',
+54 silly install resolved     repository: { type: 'git', url: 'git://github.com/jeremycx/node-LDAP.git' },
+54 silly install resolved     main: './LDAP.js',
+54 silly install resolved     engines: { node: '>= 0.8.0' },
+54 silly install resolved     devDependencies: {},
+54 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+54 silly install resolved     gypfile: true,
+54 silly install resolved     bugs: { url: 'https://github.com/jeremycx/node-LDAP/issues' },
+54 silly install resolved     _id: 'LDAP@1.2.1',
+54 silly install resolved     dist:
+54 silly install resolved      { shasum: '2370dd8a52c3b046c925d17160c2ca07e896b2bd',
+54 silly install resolved        tarball: 'http://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz' },
+54 silly install resolved     _from: 'LDAP@latest',
+54 silly install resolved     _npmVersion: '1.4.6',
+54 silly install resolved     _npmUser: { name: 'jeremycx', email: 'jeremyc@ssimicro.com' },
+54 silly install resolved     maintainers: [ [Object] ],
+54 silly install resolved     directories: {},
+54 silly install resolved     _shasum: '2370dd8a52c3b046c925d17160c2ca07e896b2bd',
+54 silly install resolved     _resolved: 'https://registry.npmjs.org/LDAP/-/LDAP-1.2.1.tgz' } ]
+55 info install LDAP@1.2.1 into Z:\share\nfo\appliNodeJS\sgbd
+56 info installOne LDAP@1.2.1
+57 verbose installOne of LDAP to Z:\share\nfo\appliNodeJS\sgbd not in flight; installing
+58 verbose lock using C:\Documents and Settings\corporate.services\Application Data\npm-cache\_locks\LDAP-8172aeed193c6a79.lock for Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+59 silly install write writing LDAP 1.2.1 to Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+60 verbose unbuild node_modules\LDAP
+61 silly gentlyRm Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP is being purged from base Z:\share\nfo\appliNodeJS\sgbd
+62 verbose gentlyRm don't care about contents; nuking Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+63 verbose tar unpack C:\Documents and Settings\corporate.services\Application Data\npm-cache\LDAP\1.2.1\package.tgz
+64 verbose tar unpacking to Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+65 silly gentlyRm Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP is being purged
+66 verbose gentlyRm don't care about contents; nuking Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+67 silly gunzTarPerm modes [ '777', '666' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+74 silly gunzTarPerm extractEntry LICENCE
+75 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+76 silly gunzTarPerm extractEntry LDAP.js
+77 silly gunzTarPerm modified mode [ 'LDAP.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry schema.js
+79 silly gunzTarPerm modified mode [ 'schema.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry binding.gyp
+81 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+82 silly gunzTarPerm extractEntry doc/draft-zeilenga-ldup-sync-05 - The Lightweight Directory Access Protocol (LDAP) Content Synchronization Operation.html
+83 silly gunzTarPerm modified mode [ 'doc/draft-zeilenga-ldup-sync-05 - The Lightweight Directory Access Protocol (LDAP) Content Synchronization Operation.html',
+83 silly gunzTarPerm   420,
+83 silly gunzTarPerm   438 ]
+84 silly gunzTarPerm extractEntry doc/ldap_sync.c
+85 silly gunzTarPerm modified mode [ 'doc/ldap_sync.c', 420, 438 ]
+86 silly gunzTarPerm extractEntry src/LDAP.cc
+87 silly gunzTarPerm modified mode [ 'src/LDAP.cc', 420, 438 ]
+88 silly gunzTarPerm extractEntry src/Makefile
+89 silly gunzTarPerm modified mode [ 'src/Makefile', 420, 438 ]
+90 silly gunzTarPerm extractEntry tests/.npmignore
+91 silly gunzTarPerm modified mode [ 'tests/.npmignore', 420, 438 ]
+92 silly gunzTarPerm extractEntry tests/README.md
+93 silly gunzTarPerm modified mode [ 'tests/README.md', 420, 438 ]
+94 silly gunzTarPerm extractEntry tests/alltests.js
+95 silly gunzTarPerm modified mode [ 'tests/alltests.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry tests/synctest.js
+97 silly gunzTarPerm modified mode [ 'tests/synctest.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry tests/add2.ldif
+99 silly gunzTarPerm modified mode [ 'tests/add2.ldif', 420, 438 ]
+100 silly gunzTarPerm extractEntry tests/add.ldif
+101 silly gunzTarPerm modified mode [ 'tests/add.ldif', 420, 438 ]
+102 silly gunzTarPerm extractEntry tests/run_sync.sh
+103 silly gunzTarPerm modified mode [ 'tests/run_sync.sh', 493, 511 ]
+104 silly gunzTarPerm extractEntry tests/run_tests.sh
+105 silly gunzTarPerm modified mode [ 'tests/run_tests.sh', 493, 511 ]
+106 silly gunzTarPerm extractEntry tests/slapd.conf
+107 silly gunzTarPerm modified mode [ 'tests/slapd.conf', 420, 438 ]
+108 silly gunzTarPerm extractEntry tests/startup.ldif
+109 silly gunzTarPerm modified mode [ 'tests/startup.ldif', 420, 438 ]
+110 silly gunzTarPerm extractEntry tests/custom.schema
+111 silly gunzTarPerm modified mode [ 'tests/custom.schema', 420, 438 ]
+112 verbose write writing to Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP\package.json
+113 info preinstall LDAP@1.2.1
+114 verbose readDependencies loading dependencies from Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP\package.json
+115 verbose readDependencies loading dependencies from Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP\package.json
+116 silly install resolved []
+117 verbose about to build Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+118 info build Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+119 info linkStuff LDAP@1.2.1
+120 silly linkStuff LDAP@1.2.1 has Z:\share\nfo\appliNodeJS\sgbd\node_modules as its parent node_modules
+121 verbose linkBins LDAP@1.2.1
+122 verbose linkMans LDAP@1.2.1
+123 verbose rebuildBundles LDAP@1.2.1
+124 info install LDAP@1.2.1
+125 verbose unsafe-perm in lifecycle true
+126 info LDAP@1.2.1 Failed to exec install script
+127 verbose unlock done using C:\Documents and Settings\corporate.services\Application Data\npm-cache\_locks\LDAP-8172aeed193c6a79.lock for Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+128 verbose stack Error: LDAP@1.2.1 install: `node-gyp rebuild`
+128 verbose stack Exit status 1
+128 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+128 verbose stack     at emitTwo (events.js:87:13)
+128 verbose stack     at EventEmitter.emit (events.js:172:7)
+128 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+128 verbose stack     at emitTwo (events.js:87:13)
+128 verbose stack     at ChildProcess.emit (events.js:172:7)
+128 verbose stack     at maybeClose (internal/child_process.js:818:16)
+128 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+129 verbose pkgid LDAP@1.2.1
+130 verbose cwd Z:\share\nfo\appliNodeJS\sgbd
+131 error Windows_NT 5.1.2600
+132 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "LDAP" "--save"
+133 error node v4.2.4
+134 error npm  v2.14.12
+135 error code ELIFECYCLE
+136 error LDAP@1.2.1 install: `node-gyp rebuild`
+136 error Exit status 1
+137 error Failed at the LDAP@1.2.1 install script 'node-gyp rebuild'.
+137 error This is most likely a problem with the LDAP package,
+137 error not with npm itself.
+137 error Tell the author that this fails on your system:
+137 error     node-gyp rebuild
+137 error You can get their info via:
+137 error     npm owner ls LDAP
+137 error There is likely additional logging output above.
+138 verbose exit [ 1, true ]
+139 verbose unbuild node_modules\LDAP
+140 info preuninstall LDAP@1.2.1
+141 info uninstall LDAP@1.2.1
+142 verbose unbuild rmStuff LDAP@1.2.1 from Z:\share\nfo\appliNodeJS\sgbd\node_modules
+143 info postuninstall LDAP@1.2.1
+144 silly gentlyRm Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP is being purged from base Z:\share\nfo\appliNodeJS\sgbd
+145 verbose gentlyRm don't care about contents; nuking Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+146 silly vacuum-fs purging Z:\share\nfo\appliNodeJS\sgbd\node_modules\LDAP
+147 silly vacuum-fs quitting because other entries in Z:\share\nfo\appliNodeJS\sgbd\node_modules

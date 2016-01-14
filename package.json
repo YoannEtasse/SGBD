@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/YoannEtasse/SGBD#readme",
   "dependencies": {
+    "activedirectory": "^0.7.1",
     "body-parser": "^1.14.2",
     "connect": "^3.4.0",
+    "ldapjs": "^1.0.0",
     "mysql": "^2.10.0",
     "url": "^0.11.0",
     "util": "^0.10.3"
